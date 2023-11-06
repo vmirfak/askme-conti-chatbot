@@ -1,0 +1,32 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+.appAboutus {
+    display: flex;
+    height: 100vh;
+}
+.aboutusContent{
+    gap: 0px 0px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.aboutus-title {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 52px;
+}
+.aboutus-title, .aboutusContent-text h4, p {
+    color: black;
+}
+.aboutusContent-text{
+    margin-top: -40px;
+    margin-left: 72px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}

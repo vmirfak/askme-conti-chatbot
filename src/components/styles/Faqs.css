@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.appFAQ {
+    display: flex;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.contentFaq {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.faq-title {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.faq-title h2 {
+    color: black;
+    margin: 0; 
+}
+
+.faqList {
+    gap: 0px 0px;
+    width: 100%; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 20px;
+    
+}
